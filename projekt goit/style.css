@@ -1,0 +1,144 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #f0e9e2;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    width: 370px;
+    background: #1e2939;
+}
+
+.cv-photo {
+    margin-top: 25px;
+}
+
+.links {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-top: 51px;
+}
+
+.bold {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.header {
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 44px;
+}
+
+.head {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.list-sec {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-position: inside;
+}
+li::marker {
+    color: #fb6d3a;
+}
+.contact-block {
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+main {
+    padding: 102px 88px 102px 88px;
+}
+
+.main-desc {
+    width: 400px;
+}
+
+.job-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.desc {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.projects {
+    width: 485px;
+    height: 107px;
+    left: 498px;
+    top: 412px;
+}
+.list-primary {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    padding-left: 0px;
+    list-style-position: inside;
+    color: #000000;
+}
+.list-primary-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+}
+.header-primary {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+.job-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.nice {
+    color: #fb6d3a;
+}
+.job-date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+.job-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #595959;
+    padding-left: 0px;
+    margin-left: 24px;
+}
